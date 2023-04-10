@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 #
-# atl_build.pl
+# atl_build_from_spreadsheet.pl
 # ATL archive builder for "Cool Cool Toon".
 #
 # Written by Derek Pascarella (ateam)
