@@ -550,6 +550,12 @@ for(my $i = 1; $i < scalar(@spreadsheet_rows); $i ++)
 		$english_text_hex .= "fe";
 	}
 
+	# Replace ASCII "The Cool Cool Kids" with Shift-JIS equivalent.
+	if($file_input_basename =~ /ENDING/)
+	{
+		$english_text_hex =~ s/2254484520434F4F4C20434F4F4C20FF23074BFF2300FF230749FF2300445322/814A82738267826481408262826E826E826B81408262826E826E826B8140826A826882638272814A/gi;
+	}
+
 	# Pad end of data to be evenly divisible by 4 bytes.
 	$english_text_hex .= "00";
 
