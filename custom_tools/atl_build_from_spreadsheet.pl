@@ -550,7 +550,7 @@ for(my $i = 1; $i < scalar(@spreadsheet_rows); $i ++)
 		$english_text_hex .= "fe";
 	}
 
-	# Pad hex with zeros 
+	# Pad end of data to be evenly divisible by 4 bytes.
 	$english_text_hex .= "00";
 
 	while((length($english_text_hex) / 2) % 4 != 0)
