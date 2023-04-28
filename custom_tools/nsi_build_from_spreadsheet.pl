@@ -140,7 +140,7 @@ for(my $i = 1; $i < scalar(@spreadsheet_rows); $i ++)
 	# Append to rolling hex representation of new string data.
 	$rolling_hex .= $english_text_hex;
 
-	# Update rolling offset for fist entry.
+	# Update rolling offset for first entry.
 	if($rolling_offset == 0)
 	{
 		# Start rolling offset at the beginning.
