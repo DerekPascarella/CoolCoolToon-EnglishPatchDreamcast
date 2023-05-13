@@ -187,7 +187,7 @@ sub write_spreadsheet
 		$japanese_text =~ s/\r//g;
 		$japanese_text =~ s/\n//g;
 		my $http = HTTP::Tiny->new;
-		my $post_data = uri_encode("auth_key=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX&target_lang=EN-US&source_lang=JA&text=" . $japanese_text);
+		my $post_data = uri_encode("auth_key=361bf0c8-9eaa-dcc4-d610-d59c8324f6a4:fx&target_lang=EN-US&source_lang=JA&text=" . $japanese_text);
 		my $response = $http->get("https://api-free.deepl.com/v2/translate?" . $post_data);
 		my $machine_translation = decode_json($response->{'content'})->{'translations'}->[0]->{'text'};
 

@@ -70,6 +70,12 @@ for(my $i = 1; $i < scalar(@spreadsheet_rows); $i ++)
 	$english_text_raw =~ s/\.\.\.\!\?/\.\.\.\?\!/g;
 	$english_text_raw =~ s/^\s+|\s+$//g;
 
+	# Account for string entries of one or more empty spaces.
+	if($english_text_raw eq "")
+	{
+		$english_text_raw = " ";
+	}
+
 	# Status message.
 	print "Original offset: " . $offset . " / 0x". &decimal_to_hex($offset, 4) . "\n";
 	print "Original pointer: " . &endian_swap(&decimal_to_hex($offset, 4)) . "\n";
