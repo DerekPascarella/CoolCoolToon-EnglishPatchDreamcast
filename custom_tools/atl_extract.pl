@@ -54,7 +54,7 @@ for(my $i = 0; $i < $string_count * 4; $i += 4)
 	my $pointer_location = 68 + $i;
 	my $pointer_value = hex(&endian_swap(&read_bytes_at_offset($file_input, 4, $pointer_location)));
 
-	print "dialog instance " . (($i / 4) + 1) . " pointer value = $pointer_value\n";
+	print "dialogue instance " . (($i / 4) + 1) . " pointer value = $pointer_value\n";
 
 	$worksheet->write((($i / 4) + 1), 0, (($i / 4) + 1), $cell_format);
 	$worksheet->write((($i / 4) + 1), 3, "", $cell_format);

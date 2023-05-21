@@ -25,7 +25,7 @@ my @string_hex = ();
 my @line_length = ();
 my $line_count;
 my $english_text_hex;
-my $processing_after_dialog_break = 0;
+my $processing_after_dialogue_break = 0;
 my $characters_variable_width_lowercase = "fijl";
 my $characters_variable_width_uppercase = "IJR";
 my %sjis_character_map = &generate_character_map_hash("sjis_char_map.txt");
@@ -40,7 +40,7 @@ print "Processing script file \"$file_input_basename\" (" . scalar(@spreadsheet_
 # Iterate through each row of spreadsheet, storing English text from 4th row in "english_replacements" hash.
 for(my $i = 1; $i < scalar(@spreadsheet_rows); $i ++)
 {
-	# Reset variables for new dialog instance.
+	# Reset variables for new dialogue instance.
 	$english_text_hex = "";
 	$line_count = 1;
 
@@ -51,7 +51,7 @@ for(my $i = 1; $i < scalar(@spreadsheet_rows); $i ++)
 
 	# Store data from current spreadsheet row.
 	my $string_number = int($spreadsheet_rows[$i][0]);
-	my $dialog_format = $spreadsheet_rows[$i][1];
+	my $dialogue_format = $spreadsheet_rows[$i][1];
 	my $english_text_raw = decode_entities($spreadsheet_rows[$i][3]);
 	my $japanese_text = decode_entities($spreadsheet_rows[$i][2]);
 
@@ -141,14 +141,14 @@ for(my $i = 1; $i < scalar(@spreadsheet_rows); $i ++)
 			$word_lengths[$j] = length($english_text_words[$j]) * 16;
 			my @english_characters = split(//, $english_text_words[$j]);
 			
-			# Process a manual cycling of new dialog box.
+			# Process a manual cycling of new dialogue box.
 			if($english_text_words[$j] eq "[NEW-DIALOG-BOX]")
 			{
 				$line_count = 1;
 				$english_text_hex .= "feff00";
-				$processing_after_dialog_break = 1;
+				$processing_after_dialogue_break = 1;
 
-				# Clear all existing line counts, since new dialog box is being generated.
+				# Clear all existing line counts, since new dialogue box is being generated.
 				for(1 .. 18)
 				{
 					$line_length[$_] = 0;
@@ -439,20 +439,20 @@ for(my $i = 1; $i < scalar(@spreadsheet_rows); $i ++)
 						system "echo \"String number $i\n\" >> ./warning.log";
 					}
 				}
-				# Process dialog text.
+				# Process dialogue text.
 				else
 				{
-					# Processing last (third) line of a dialog box.
+					# Processing last (third) line of a dialogue box.
 					if($line_count % 3 == 0)
 					{
-						if($j > 0 && $processing_after_dialog_break != 1)
+						if($j > 0 && $processing_after_dialogue_break != 1)
 						{
 							$line_length[$line_count] += 16;
 						}
 
 						if($line_length[$line_count] + $word_lengths[$j] <= 656)
 						{
-							if($j > 0 && $processing_after_dialog_break != 1)
+							if($j > 0 && $processing_after_dialogue_break != 1)
 							{
 								$english_text_hex .= "20";
 							}
@@ -486,14 +486,14 @@ for(my $i = 1; $i < scalar(@spreadsheet_rows); $i ++)
 					# Processing normal line (first or second).
 					else
 					{
-						if($j > 0 && $processing_after_dialog_break != 1)
+						if($j > 0 && $processing_after_dialogue_break != 1)
 						{
 							$line_length[$line_count] += 16;
 						}
 
 						if($line_length[$line_count] + $word_lengths[$j] <= 720)
 						{
-							if($j > 0 && $processing_after_dialog_break != 1 && $english_text_words[$j - 1] !~ /^\[ff290[0-9]\]/)
+							if($j > 0 && $processing_after_dialogue_break != 1 && $english_text_words[$j - 1] !~ /^\[ff290[0-9]\]/)
 							{
 								$english_text_hex .= "20";
 							}
@@ -512,40 +512,40 @@ for(my $i = 1; $i < scalar(@spreadsheet_rows); $i ++)
 
 					if($line_count > 3 && $english_text_raw !~ /\[NEW-DIALOG-BOX\]/)
 					{
-						print "WARNING: Dialog text exceeds three lines!\n";
+						print "WARNING: Dialogue text exceeds three lines!\n";
 						system "echo \"[$file_input_basename]\" >> ./warning.log";
-						system "echo \"Oversized dialog line.\" >> ./warning.log";
+						system "echo \"Oversized dialogue line.\" >> ./warning.log";
 						system "echo \"String number $i\n\" >> ./warning.log";
 					}
 				}
 
-				$processing_after_dialog_break = 0;
+				$processing_after_dialogue_break = 0;
 			}
 		}
 	}
 
-	# Process "dialog format" control codes.
-	if($dialog_format =~ "YES_NO_V1")
+	# Process "dialogue format" control codes.
+	if($dialogue_format =~ "YES_NO_V1")
 	{
 		$english_text_hex .= "fdfdff2800827882648272ff2801826d826eff28ff";
 	}
 
-	if($dialog_format =~ "YES_NO_V2")
+	if($dialogue_format =~ "YES_NO_V2")
 	{
 		$english_text_hex .= "fdfdff2800827882648272ff2881826d826eff28ff";
 	}
 
-	if($dialog_format =~ "YES_NO_V3")
+	if($dialogue_format =~ "YES_NO_V3")
 	{
 		$english_text_hex .= "fdfdff2800827882648272ff2801826d826eff28ff";
 	}
 
-	if($dialog_format =~ "YES_NO_V4")
+	if($dialogue_format =~ "YES_NO_V4")
 	{
 		$english_text_hex .= "fdfdff2800827882648272ff2801826d826eff28ff";
 	}
 
-	if($dialog_format =~ "PRESS_A")
+	if($dialogue_format =~ "PRESS_A")
 	{
 		$english_text_hex .= "fe";
 	}
@@ -567,13 +567,13 @@ for(my $i = 1; $i < scalar(@spreadsheet_rows); $i ++)
 	$string_hex[$i - 1] = $english_text_hex;
 
 	# Status message.
-	(my $dialog_format_display = $dialog_format) =~ s/\n/ - /g;
-	print "String $i / Row " . ($i + 1) . " ($dialog_format_display) [" . scalar(@english_text_words) . " words]\n";
+	(my $dialogue_format_display = $dialogue_format) =~ s/\n/ - /g;
+	print "String $i / Row " . ($i + 1) . " ($dialogue_format_display) [" . scalar(@english_text_words) . " words]\n";
 
 	if(scalar(@english_text_words) == 0)
 	{
 		system "echo \"[$file_input_basename]\" >> ./warning.log";
-		system "echo \"Empty dialog line.\" >> ./warning.log";
+		system "echo \"Empty dialogue line.\" >> ./warning.log";
 		system "echo \"String number $i\n\" >> ./warning.log";
 	}
 
@@ -607,14 +607,14 @@ $file_output_header .= substr(&read_bytes($file_source, 68), 88, 48);
 my $offset_pointer = &endian_swap(&decimal_to_hex((length($file_output_header) / 2) + ((scalar(@spreadsheet_rows) - 1) * 4), 4));
 my $file_output_hex = $file_output_header . $offset_pointer;
 
-# Append additional pointers per each dialog instance.
+# Append additional pointers per each dialogue instance.
 for(2 .. scalar(@spreadsheet_rows) - 1)
 {
 	$offset_pointer = &endian_swap(&decimal_to_hex(hex(&endian_swap($offset_pointer)) + (length($string_hex[$_ - 2]) / 2) + 4, 4));
 	$file_output_hex .= $offset_pointer;
 }
 
-# Append each dialog instance.
+# Append each dialogue instance.
 foreach(@string_hex)
 {
 	$file_output_hex .= &endian_swap(&decimal_to_hex(length($_) / 2, 4));
