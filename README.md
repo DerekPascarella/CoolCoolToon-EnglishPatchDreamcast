@@ -134,4 +134,4 @@ In 2014, SNK Playmore released the mobile game "The Rhythm of Fighters", which f
 <br><br>
 The companion game to "Cool Cool Toon" (called "Cool Cool Jam") for the Neo Geo Pocket Color follows the adventures of Wav and Midi in Musey Town, a neighboring city of Cool Cool Town. The main focus of this game is to start a band to find the way back home, using mini-games where the player needs to compose pieces with instruments.
 <br><br>
-Points earned in this game can be transferred to "Cool Cool Toon" on the Dreamcast, allowing players to unlock more costumes and characters. Conversely, unlocked characters and constumes from "Cool Cool Toon" can be transferred to "Cool Cool Jam".
+Points earned in this game can be transferred to "Cool Cool Toon" on the Dreamcast, allowing players to unlock more costumes and characters. Conversely, unlocked characters and constumes from "Cool Cool Toon" on the Dreamcast can be transferred to "Cool Cool Jam" on the Neo Geo Pocket Color.
