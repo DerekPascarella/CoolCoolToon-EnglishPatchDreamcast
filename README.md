@@ -120,25 +120,13 @@ In 2014, SNK Playmore released the mobile game "The Rhythm of Fighters", which f
 <img align="right" width="267" src="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/blob/main/bonus.gif?raw=true">Unique and brand new for this patch is a collection of bonus content for players to enjoy. To access this content, select "INTERNET GATE" from the main menu, which will launch a <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?t=14611">modified version of the Dream Passport web browser</a>.
 <br><br>
 <ul>
- <li><b>100% Unlocked Save</b></li>
- <ul>
-  <li>A save file that can be downloaded directly to your VMU to unlock all stages, outfits, songs, and more! Note that this will prevent you from playing through Amp and Spica's stories from the beginning.</li>
- </ul>
+ <li><b>100% Unlocked Save</b><br>A save file that can be downloaded directly to your VMU to unlock all stages, outfits, songs, and more! Note that this will prevent you from playing through Amp and Spica's stories from the beginning.</li>
  <br>
- <li><b>On-Disc Extras Page</b></li>
- <ul>
-  <li>The retail GD-ROM of "Cool Cool Toon" included a built-in "Omake", or "Extras", webpage. This baked-in page features fantastic artwork, including character portraits, artwork development pieces, title screens, wallpapers, and more!</li>
- </ul>
+ <li><b>On-Disc Extras Page</b><br>The retail GD-ROM of "Cool Cool Toon" included a built-in "Omake", or "Extras", webpage. This baked-in page features fantastic artwork, including character portraits, artwork development pieces, title screens, wallpapers, and more!</li>
  <br>
- <li><b>Original Dricas Website</b></li>
- <ul>
-  <li>Dricas, the Japanese Dreamcast network website, hosted individual pages for a slew of games during the console's lifespan. Included here is the original "Cool Cool Toon" site, fully intact. For purposes of preservation, this content has been left untranslated.</li>
- </ul>
+ <li><b>Original Dricas Website</b><br>Dricas, the Japanese Dreamcast network website, hosted individual pages for a slew of games during the console's lifespan. Included here is the original "Cool Cool Toon" site, fully intact. For purposes of preservation, this content has been left untranslated.</li>
  <br>
- <li><b>Using Maracas</b></li>
- <ul>
-  <li>This game's little-known support for the Dreamcast maracas was documented on the retail GD-ROM itself. That documentation has been fully translated for all the crazy Dreamcast peripheral owners out there to try!</li>
- </ul>
+ <li><b>Using Maracas</b><br>This game's little-known support for the Dreamcast maracas was documented on the retail GD-ROM itself. That documentation has been fully translated for all the crazy Dreamcast peripheral owners out there to try!</li>
 </ul>
 
 <h2>Neo Geo Pocket Color Link Feature</h2>
