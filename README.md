@@ -100,7 +100,7 @@
   <li>Dricas, the Japanese Dreamcast network website, hosted individual pages for a slew of games during the console's lifespan. Included here is the original "Cool Cool Toon" site, fully intact. For purposes of preservation, this content has been left untranslated.</li>
  </ul>
  <br>
- <li>Using Maracas</li>
+ <li><b>Using Maracas</b></li>
  <ul>
   <li>This game's little-known support for the Dreamcast maracas was documented on the retail GD-ROM itself. That documentation has been fully translated for all the crazy Dreamcast peripheral owners out there to try!</li>
  </ul>
