@@ -78,11 +78,16 @@
  <li>A variable-width font has been implemented.</li>
  <li>All textures/graphics have been translated into English and re-rendered.</li>
  <li>All in-game dialogue text has been translated and appears in English.</li>
- <li>All in-game cutscenes have been subtitled in English.</li>
+ <li>All in-game cutscenes have been translated and subtitled in English.</li>
+ <li>All unlockable character and costume names have been translated and appear in English.</li>
+ <li>All mini-games have been translated and appear in English.</li>
  <li>All menu text/graphics has been translated and appears in English.</li>
  <li>VMU save file metadata has been translated and appears in English.</li>
  <li>Neo Geo Pocket Color link (for use with "Cool Cool Jam") messages have been translated and appear in English (see <a href="#neo-geo-pocket-color-link-feature">Neo Geo Pocket Color Link Feature</a> section).</li>
  <li>The built-in "INTERNET GATE" has been replaced with special bonus content (see <a href="#bonus-content">Bonus Content</a> section).</li>
+  <ul>
+   <li>Previously this portion of the game was inaccessible to those who've never configured ISP settings on their Dreamcast, but this requirement has been removed.</li>
+  </ul>
 </ul>
 
 <h2>About the Game</h2>
