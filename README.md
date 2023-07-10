@@ -130,8 +130,6 @@ In 2014, SNK Playmore released the mobile game "The Rhythm of Fighters", which f
 </ul>
 
 <h2>Neo Geo Pocket Color Link Feature</h2>
-A special <a href="https://segaretro.org/Neo_Geo_Pocket/Dreamcast_Setsuzoku_Cable">"Setsuzoku Cable"</a> (Link Cable) is required to make use of this feature, connecting the Neo Geo Pocket Color to the Dreamcast.
+<img align="right" width="202" height="250" src="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/blob/main/link_cable.jpg?raw=true">A special <a href="https://segaretro.org/Neo_Geo_Pocket/Dreamcast_Setsuzoku_Cable">"Setsuzoku Cable"</a> (Link Cable) is required to make use of this feature, connecting the Neo Geo Pocket Color to the Dreamcast.
 <br><br>
 The companion game to "Cool Cool Toon" (called "Cool Cool Jam") for the Neo Geo Pocket Color follows the adventures of Wav and Midi in Musey Town, a neighboring city of Cool Cool Town. The main focus of this game is to start a band to find the way back home, using mini-games where the player needs to compose pieces with instruments. Points earned in this game can be transferred to "Cool Cool Toon" on the Dreamcast, allowing players to unlock more costumes and characters.
-<br><br>
-<p align="center"><img width="621" height="401" src="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/blob/main/link_cable.png?raw=true"></p>
