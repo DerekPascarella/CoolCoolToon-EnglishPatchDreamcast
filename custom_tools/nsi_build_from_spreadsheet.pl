@@ -36,7 +36,7 @@ my $nsi_file_hex = lc(&read_bytes($folder_source . "/" . $file_input_basename, $
 # Status message.
 print "Processing script file \"$file_input_basename\.xlsx\" (" . scalar(@spreadsheet_rows) . " rows)...\n";
 
-# Iterate through each row of spreadsheet, storing English text from 4th row in "english_replacements" hash.
+# Iterate through each row of spreadsheet.
 for(my $i = 1; $i < scalar(@spreadsheet_rows); $i ++)
 {
 	# Status message.
