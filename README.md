@@ -57,7 +57,7 @@
    <li>James Tocchio (GGDreamcast.com)</li>
   </ul>
   <br>
-  <li><b>Graphics</b></li>
+  <li><b>Special Thanks</b></li>
   <ul>
    <li>nanashi</li>
   </ul>
