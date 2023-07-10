@@ -13,7 +13,8 @@
 2. [Credits](#credits)
 3. [Release Changelog](#release-changelog)
 4. [What's Changed](#whats-changed)
-5. [Bonus Content](#bonus-content)
+5. [About the Game](#about-the-game)
+6. [Bonus Content](#bonus-content)
 
 <h2>Patching Instructions</h2>
 <ul>
@@ -80,6 +81,37 @@
  <li>VMU save file metadata has been translated and appears in English.</li>
  <li>The built-in "INTERNET GATE" has been replaced with special bonus content.</li>
 </ul>
+
+<h2>About the Game</h2>
+<table>
+<tr>
+<td><b>Title</b></td>
+<td>Cool Cool Toon (クルクルトゥーン)</td>
+</tr>
+<tr>
+<td><b>Developer</b></td>
+<td>SNK</td>
+</tr>
+<tr>
+<td><b>Publisher</b></td>
+<td>SNK</td>
+</tr>
+<tr>
+<td><b>Release Date</b></td>
+<td>2000-08-10</td>
+</tr>
+<tr>
+<td><b>Supported Peripherals</b></td>
+<td>VGA Box, Jump Pack, Controller, VMU, Maracas (Unofficially)</td>
+</table>
+<br>
+Cool Cool Toon (クルクルトゥーン) is an interactive 3D rhythm-comic game developed by SNK for the Dreamcast, making it one of the last games the company developed for the console. The title is also capable of linking with its Neo Geo Pocket Color companion title, "Cool Cool Jam". Both titles were released on August 10th, 2000 in Japan. The games were never licensed or localized to any other country.
+<br><br>
+The gameplay has often been compared with another rhythm game at the time, "Space Channel 5", by fans and critics alike. Main visuals and character designs were done by comic book artist and illustrator, Ippei Gyoubu.
+<br><br>
+References to the game and some of its characters were later featured in one of the stages in "Neo Geo Battle Coliseum". 
+<br><br>
+In 2014, SNK Playmore released the mobile game The Rhythm of Fighters, which features a similar gameplay.
 
 <h2>Bonus Content</h2>
 <img align="right" width="267" src="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/blob/main/bonus.gif?raw=true">Unique and brand new for this patch is a collection of bonus content for players to enjoy. To access this content, select "INTERNET GATE" from the main menu, which will launch a <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?t=14611">modified version of the Dream Passport web browser</a>.
