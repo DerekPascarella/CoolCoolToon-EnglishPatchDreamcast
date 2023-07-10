@@ -372,7 +372,7 @@ sub patch_bytes
 # map file should be formatted with each character definition on its own line (<hex>|<ascii>). Example
 # character map file:
 #  ______
-# |	  |
+# |	 |
 # | 00|A |
 # | 01|B |
 # | 02|C |
