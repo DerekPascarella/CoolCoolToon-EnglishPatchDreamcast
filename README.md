@@ -104,7 +104,7 @@
 </tr>
 <tr>
 <td><b>Supported Peripherals</b></td>
-<td>VGA Box, Jump Pack, Controller, VMU, Maracas (Unofficially)</td>
+<td>VGA Box, Jump Pack, Controller, VMU, Setsuzoku Cable (Link Cable), Maracas (Unofficially)</td>
 </table>
 <br>
 Cool Cool Toon (クルクルトゥーン) is an interactive 3D rhythm-comic game developed by SNK for the Dreamcast, making it one of the last games the company developed for the console. The title is also capable of linking with its Neo Geo Pocket Color companion title, "Cool Cool Jam". Both titles were released on August 10th, 2000 in Japan. The games were never licensed or localized to any other country.
@@ -141,6 +141,6 @@ In 2014, SNK Playmore released the mobile game The Rhythm of Fighters, which fea
 </ul>
 
 <h2>Neo Geo Pocket Color Link Feature</h2>
-A special <a href="https://segaretro.org/Neo_Geo_Pocket/Dreamcast_Setsuzoku_Cable">"Setsuzoku Cable"</a> (link cable) is required to make use of this feature, connecting the Neo Geo Pocket Color to the Dreamcast.
+A special <a href="https://segaretro.org/Neo_Geo_Pocket/Dreamcast_Setsuzoku_Cable">"Setsuzoku Cable"</a> (Link Cable) is required to make use of this feature, connecting the Neo Geo Pocket Color to the Dreamcast.
 <br><br>
 The companion game to "Cool Cool Toon" (called "Cool Cool Jam") for the Neo Geo Pocket Color follows the adventures of Wav and Midi in Musey Town, a neighboring city of Cool Cool Town. The main focus of this game is to start a band to find the way back home, using mini-games where the player needs to compose pieces with instruments. Points earned in this game can be transferred to "Cool Cool Toon" on the Dreamcast, allowing players to unlock more costumes and characters.
