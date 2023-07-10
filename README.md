@@ -113,7 +113,7 @@ The gameplay has often been compared with another rhythm game at the time, "Spac
 <br><br>
 References to the game and some of its characters were later featured in one of the stages in "Neo Geo Battle Coliseum". 
 <br><br>
-In 2014, SNK Playmore released the mobile game The Rhythm of Fighters, which features a similar gameplay.
+In 2014, SNK Playmore released the mobile game "The Rhythm of Fighters", which features a similar gameplay.
 
 <h2>Bonus Content</h2>
 <img align="right" width="267" src="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/blob/main/bonus.gif?raw=true">Unique and brand new for this patch is a collection of bonus content for players to enjoy. To access this content, select "INTERNET GATE" from the main menu, which will launch a <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?t=14611">modified version of the Dream Passport web browser</a>.
