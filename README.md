@@ -75,6 +75,7 @@
 <img align="right" width="267" height="200" src="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/blob/main/screenshot.png?raw=true">Below is a high-level list of changes implemented for this English translation patch.
 <br><br>
 <ul>
+ <li>A variable-width font has been implemented.</li>
  <li>All textures/graphics have been translated into English and re-rendered.</li>
  <li>All in-game dialogue text has been translated and appears in English.</li>
  <li>All in-game cutscenes have been subtitled in English.</li>
