@@ -76,4 +76,23 @@
 </ul>
 
 <h2>Bonus Content</h2>
-<img align="right" width="267" src="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/blob/main/bonus.gif?raw=true">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor placerat urna ut rhoncus. Suspendisse vestibulum libero vitae mi vulputate pharetra. Etiam faucibus lectus eros, a lacinia eros interdum ultrices. Sed laoreet porta risus et bibendum. Duis sapien erat, iaculis nec ante non, fringilla posuere tellus. Phasellus tellus sapien, ultricies et tellus pulvinar, imperdiet convallis nunc. Nam et egestas tellus. Sed non libero vitae diam gravida posuere eu ut sem. Suspendisse potenti. Phasellus scelerisque, urna vel aliquet fringilla, dui sem varius erat, in tincidunt ex purus in erat. Pellentesque facilisis ante tincidunt placerat vulputate. Aenean scelerisque velit odio, vel suscipit ligula consequat non. Donec at metus hendrerit, commodo massa quis, vestibulum ligula. Nam aliquet mattis ligula. In dui ante, placerat id malesuada eget, venenatis ac lacus. Sed a iaculis velit.
+<img align="right" width="267" src="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/blob/main/bonus.gif?raw=true">Unique and brand new for this patch is a collection of bonus content for players to enjoy. To access this content, select "INTERNET GATE" from the main menu, which will launch a <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?t=14611">modified version of the Dream Passport web browser</a>.
+<br><br>
+<ul>
+ <li>100% Unlocked Save</li>
+ <ul>
+  <li>A save file that can be downloaded directly to your VMU to unlock all stages, outfits, songs, and more! Note that this will prevent you from playing through Amp and Spica's stories from the beginning.</li>
+ </ul>
+ <li>On-Disc Extras Page</li>
+ <ul>
+  <li>The retail GD-ROM of "Cool Cool Toon" included a built-in "Omake", or "Extras", webpage. This baked-in page features fantastic artwork, including character portraits, artwork development pieces, title screens, wallpapers, and more!</li>
+ </ul>
+ <li>Original Dricas Website</li>
+ <ul>
+  <li>Dricas, the Japanese Dreamcast network website, hosted individual pages for a slew of games during the console's lifespan. Included here is the original "Cool Cool Toon" site, fully intact. For purposes of preservation, this content has been left untranslated.</li>
+ </ul>
+ <li>Using Maracas</li>
+ <ul>
+  <li>This game's little-known support for the Dreamcast maracas was documented on the retail GD-ROM itself. That documentation has been fully translated for all the crazy Dreamcast peripheral owners out there to try!</li>
+ </ul>
+</ul>
