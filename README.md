@@ -80,7 +80,7 @@
  <li>All in-game cutscenes have been subtitled in English.</li>
  <li>All menu text/graphics has been translated and appears in English.</li>
  <li>VMU save file metadata has been translated and appears in English.</li>
- <li>Neo Geo Pocket Color link (for use with "Cool Cool Jam") messages have been translated into English and re-rendered (see <a href="#neo-geo-pocket-color-link-feature">Neo Geo Pocket Color Link Feature</a> section).</li>
+ <li>Neo Geo Pocket Color link (for use with "Cool Cool Jam") messages have been translated and appear in English (see <a href="#neo-geo-pocket-color-link-feature">Neo Geo Pocket Color Link Feature</a> section).</li>
  <li>The built-in "INTERNET GATE" has been replaced with special bonus content (see <a href="#bonus-content">Bonus Content</a> section).</li>
 </ul>
 
