@@ -16,6 +16,7 @@
 5. [About the Game](#about-the-game)
 6. [Bonus Content](#bonus-content)
 7. [Neo Geo Pocket Color Link Feature](#neo-geo-pocket-color-link-feature)
+8. [Tutorials](#tutorials)
 
 <h2>Patching Instructions</h2>
 <ul>
@@ -140,3 +141,15 @@ In 2014, SNK Playmore released the mobile game "The Rhythm of Fighters", which f
 The companion game to "Cool Cool Toon" (called "Cool Cool Jam") for the Neo Geo Pocket Color follows the adventures of Wav and Midi in Musey Town, a neighboring city of Cool Cool Town. The main focus of this game is to start a band to find the way back home, using mini-games where the player needs to compose pieces with instruments.
 <br><br>
 Points earned in this game can be transferred to "Cool Cool Toon" on the Dreamcast, allowing players to unlock more costumes and characters. Conversely, unlocked characters and constumes from "Cool Cool Toon" on the Dreamcast can be transferred to "Cool Cool Jam" on the Neo Geo Pocket Color.
+
+<h2>Tutorials</h2>
+There are several mechanics players should learn in order to progress through the game, explained below.
+<h3>Flitz Basics</h3>
+<img src="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/blob/main/flitz_basics_1.png?raw=true">
+<img src="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/blob/main/flitz_basics_2.png?raw=true">
+<img src="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/blob/main/flitz_basics_3.png?raw=true">
+<img src="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/blob/main/flitz_basics_4.png?raw=true">
+<img src="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/blob/main/flitz_basics_5.png?raw=true">
+<h3>Flitz Boons</h3>
+<img src="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/blob/main/flitz_boons_1.png?raw=true">
+<img src="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/blob/main/flitz_boons_2.png?raw=true">
