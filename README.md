@@ -145,11 +145,11 @@ Points earned in this game can be transferred to "Cool Cool Toon" on the Dreamca
 <h2>Tutorials</h2>
 There are several mechanics players should learn in order to progress through the game, explained below.
 <h3>Flitz Basics</h3>
-<img src="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/blob/main/flitz_basics_1.png?raw=true">
-<img src="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/blob/main/flitz_basics_2.png?raw=true">
-<img src="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/blob/main/flitz_basics_3.png?raw=true">
-<img src="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/blob/main/flitz_basics_4.png?raw=true">
-<img src="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/blob/main/flitz_basics_5.png?raw=true">
+<img src="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/blob/main/tutorials/flitz_basics_1.png?raw=true">
+<img src="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/blob/main/tutorials/flitz_basics_2.png?raw=true">
+<img src="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/blob/main/tutorials/flitz_basics_3.png?raw=true">
+<img src="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/blob/main/tutorials/flitz_basics_4.png?raw=true">
+<img src="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/blob/main/tutorials/flitz_basics_5.png?raw=true">
 <h3>Flitz Boons</h3>
-<img src="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/blob/main/flitz_boons_1.png?raw=true">
-<img src="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/blob/main/flitz_boons_2.png?raw=true">
+<img src="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/blob/main/tutorials/flitz_boons_1.png?raw=true">
+<img src="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/blob/main/tutorials/flitz_boons_2.png?raw=true">
