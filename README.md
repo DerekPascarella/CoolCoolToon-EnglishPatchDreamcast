@@ -67,7 +67,7 @@
 
 <h2>Release Changelog</h2>
 <ul>
- <li>Version 1.0 (2023-XX-XX)</li>
+ <li>Version 1.0 (2023-07-XX)</li>
  <ul>
   <li>Initial release.</li>
  </ul>
