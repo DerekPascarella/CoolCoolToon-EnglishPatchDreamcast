@@ -12,13 +12,13 @@
 1. [Patching Instructions](#patching-instructions)
 2. [Credits](#credits)
 3. [Release Changelog](#release-changelog)
-4. [What's Changed](#whats-changed)
-5. [About the Game](#about-the-game)
-6. [Bonus Content](#bonus-content)
-7. [Original Soundtrack](#original-soundtrack)
-8. [Neo Geo Pocket Color Link Feature](#neo-geo-pocket-color-link-feature)
-9. [Tutorials](#tutorials)
-10. [Reporting Bugs and Typos](#reporting-bugs-and-typos)
+4. [Reporting Bugs and Typos](#reporting-bugs-and-typos)
+5. [What's Changed](#whats-changed)
+6. [About the Game](#about-the-game)
+7. [Bonus Content](#bonus-content)
+8. [Original Soundtrack](#original-soundtrack)
+9. [Neo Geo Pocket Color Link Feature](#neo-geo-pocket-color-link-feature)
+10. [Tutorials](#tutorials)
 
 <h2>Patching Instructions</h2>
 <ul>
@@ -73,6 +73,9 @@
   <li>Initial release.</li>
  </ul>
 </ul>
+
+<h2>Reporting Bugs and Typos</h2>
+Even after extensive testing on both real hardware and on emulators, the presence of bugs or typos may be possible. Should a player encounter any such issue, it's kindly requested that they <a href="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/issues/new">submit a new issue</a> to this project page.
 
 <h2>What's Changed</h2>
 <img align="right" width="267" height="200" src="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/blob/main/screenshot.png?raw=true">Below is a high-level list of changes implemented for this English translation patch.
@@ -164,6 +167,3 @@ There are several mechanics players should learn in order to progress through th
 <h3>Flitz Boons</h3>
 <img src="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/blob/main/tutorials/flitz_boons_1.png?raw=true">
 <img src="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/blob/main/tutorials/flitz_boons_2.png?raw=true">
-
-<h2>Reporting Bugs and Typos</h2>
-Even after extensive testing on both real hardware and on emulators, the presence of bugs or typos may be possible. Should a player encounter any such issue, it's kindly requested that they <a href="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/issues/new">submit a new issue</a> to this project page.
