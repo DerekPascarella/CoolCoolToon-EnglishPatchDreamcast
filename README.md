@@ -15,8 +15,9 @@
 4. [What's Changed](#whats-changed)
 5. [About the Game](#about-the-game)
 6. [Bonus Content](#bonus-content)
-7. [Neo Geo Pocket Color Link Feature](#neo-geo-pocket-color-link-feature)
-8. [Tutorials](#tutorials)
+7. [Original Soundtrack](#original-soundtrack)
+8. [Neo Geo Pocket Color Link Feature](#neo-geo-pocket-color-link-feature)
+9. [Tutorials](#tutorials)
 
 <h2>Patching Instructions</h2>
 <ul>
@@ -134,6 +135,13 @@ In 2014, SNK Playmore released the mobile game "The Rhythm of Fighters", which f
  <br>
  <li><b>Using Maracas</b><br>This game's little-known support for the Dreamcast maracas was documented on the retail GD-ROM itself. That documentation has been fully translated for all the crazy Dreamcast peripheral owners out there to try!</li>
 </ul>
+
+<h2>Original Soundtrack</h2>
+<img align="right" width="165" height="165" src="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/blob/main/ost.jpg?raw=true">On September 20th, 2000, <a href="https://vgmdb.net/org/1364">Scitron Discs</a> published an original soundtrack for the game, featuring a total of 31 tracks. All "flitz battle" songs heard throughout "Cool Cool Toon" are present, including additional music from other parts of the game.
+<br><br>
+To learn more about the soundtrack, including credits for songwriters, music arrangers, and vocalists, visit its entry on <a href="https://vgmdb.net/album/1628">VGMdb</a>.
+<br><br>
+<a href="https://mega.nz/folder/OJlmgZRD#IC8D6X6UMhiI_JH96IQF2Q">Download</a> the soundtrack in MP3 format.
 
 <h2>Neo Geo Pocket Color Link Feature</h2>
 <img align="right" width="202" height="250" src="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/blob/main/link_cable.jpg?raw=true">A special <a href="https://segaretro.org/Neo_Geo_Pocket/Dreamcast_Setsuzoku_Cable">"Setsuzoku Cable"</a> (Link Cable) is required to make use of this feature, connecting the Neo Geo Pocket Color to the Dreamcast.
