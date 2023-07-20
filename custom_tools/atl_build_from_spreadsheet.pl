@@ -571,8 +571,6 @@ for(my $i = 1; $i < scalar(@spreadsheet_rows); $i ++)
 		}
 		elsif($_ eq "22")
 		{
-			# $_ = "]";
-
 			$quote_start_found = 0;
 		}
 	}
