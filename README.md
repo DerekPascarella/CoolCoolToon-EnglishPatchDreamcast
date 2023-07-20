@@ -75,7 +75,7 @@
 </ul>
 
 <h2>Reporting Bugs and Typos</h2>
-Even after extensive testing on both real hardware and on emulators, the presence of bugs or typos may be possible. Should a player encounter any such issue, it's kindly requested that they <a href="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/issues/new">submit a new issue</a> to this project page.
+Even after extensive testing on both real hardware and on emulators, the presence of bugs or typos may be possible. Should a player encounter any such issue, it's kindly requested that they <a href="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/issues/new">submit a new issue</a> to this project page, including as much detailed information as possible.
 
 <h2>What's Changed</h2>
 <img align="right" width="267" height="200" src="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/blob/main/screenshot.png?raw=true">Below is a high-level list of changes implemented for this English translation patch.
