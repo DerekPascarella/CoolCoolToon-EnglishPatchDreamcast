@@ -126,6 +126,8 @@ In 2014, SNK Playmore released the mobile game "The Rhythm of Fighters", which f
 <h2>Bonus Content</h2>
 <img align="right" width="267" src="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/blob/main/bonus.gif?raw=true">Unique and brand new for this patch is a collection of bonus content for players to enjoy. To access this content, select "INTERNET GATE" from the main menu, which will launch a <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?t=14611">modified version of the Dream Passport web browser</a>.
 <br><br>
+To return to the game from the bonus content section, press L on the controller, then select "EXIT TO GAME".
+<br><br>
 <ul>
  <li><b>100% Unlocked Save</b><br>A save file that can be downloaded directly to your VMU to unlock all stages, outfits, songs, and more! Note that this will prevent you from playing through Amp and Spica's stories from the beginning.</li>
  <br>
