@@ -213,14 +213,25 @@ for(my $i = 1; $i < scalar(@spreadsheet_rows); $i ++)
 			else
 			{
 				# Generate control codes for variable-width font.
+				#
+				# SPACING KEY:
+				# ff2301 = 0.75 * 18
+				# ff2302 = 0.75 * 16
+				# ff2303 = 0.75 * 14
+				# ff2304 = 0.75 * 12
+				# ff2305 = 0.75 * 10
+				# ff2306 = 0.75 * 8
+				# ff2307 = 0.75 * 6
+				# ff2308 = 0.75 * 4
+				# ff2309 = 0.75 * 2
 				for(my $k = 0; $k < scalar(@english_characters); $k ++)
 				{
 					my $tile_adjustment_flag = 0;
 
 					if($english_characters[$k] eq ",")
 					{
-						$word_hex[$j] .= "ff2306" . ascii_to_hex($english_characters[$k]) . "ff2300";
-						$word_lengths[$j] -= 0.75 * 8;
+						$word_hex[$j] .= "ff2305" . ascii_to_hex($english_characters[$k]) . "ff2300";
+						$word_lengths[$j] -= 0.75 * 10;
 						$tile_adjustment_flag = 1;
 					}
 
@@ -306,6 +317,14 @@ for(my $i = 1; $i < scalar(@spreadsheet_rows); $i ++)
 					}
 
 					if(($english_characters[$k] eq "I" || $english_characters[$k] eq "i" || $english_characters[$k] eq "l" || $english_characters[$k] eq "j")
+						&& $k == scalar(@english_characters) - 1)
+					{
+						$word_hex[$j] .= "ff2307" . ascii_to_hex($english_characters[$k]) . "ff2300";
+						$word_lengths[$j] -= 0.75 * 6;
+						$tile_adjustment_flag = 1;
+					}
+
+					if(($english_characters[$k] eq "I" || $english_characters[$k] eq "i" || $english_characters[$k] eq "l" || $english_characters[$k] eq "j")
 						&& ($characters_variable_width_lowercase !~ /\Q$english_characters[$k + 1]\E/ && $characters_variable_width_uppercase !~ /\Q$english_characters[$k + 1]\E/)
 						&& $english_characters[$k + 1] ne "" && $english_characters[$k + 1] ne "." && $english_characters[$k + 1] ne "!" && $english_characters[$k + 1] ne "'")
 					{
@@ -364,17 +383,47 @@ for(my $i = 1; $i < scalar(@spreadsheet_rows); $i ++)
 						$tile_adjustment_flag = 1;
 						$k += 3;
 					}
-					elsif($english_characters[$k] eq "." && $english_characters[$k + 1] eq "." && $english_characters[$k + 2] eq ".")
+					elsif($english_characters[$k] eq "." && $english_characters[$k + 1] eq "." && $english_characters[$k + 2] eq "." && $english_characters[$k + 3] !~ /[A-Za-z]/)
 					{
-						$word_hex[$j] .= "ff2306" . ascii_to_hex($english_characters[$k] . $english_characters[$k + 1]) . "ff2300" . ascii_to_hex($english_characters[$k + 2]);
-						$word_lengths[$j] -= 0.75 * 16;
+						$word_hex[$j] .= "ff2306" . ascii_to_hex($english_characters[$k] . $english_characters[$k + 1]) . "ff2300ff2304" . ascii_to_hex($english_characters[$k + 2]) . "ff2300";
+						$word_lengths[$j] -= 0.75 * 28;
 						$tile_adjustment_flag = 1;
 						$k += 2;
 					}
+					elsif($english_characters[$k] eq "." && $english_characters[$k + 1] eq "." && $english_characters[$k + 2] eq "." && $english_characters[$k + 3] =~ /[A-Za-z]/)
+					{
+						$word_hex[$j] .= "ff2306" . ascii_to_hex($english_characters[$k] . $english_characters[$k + 1]) . "ff2300";
+
+						if(lc($english_characters[$k + 3]) eq "i" || $english_characters[$k + 3] eq "l" || $english_characters[$k + 3] eq "j")
+						{
+							$word_hex[$j] .= "ff2304";
+							$word_lengths[$j] -= 0.75 * 28;
+						}
+						elsif($english_characters[$k + 3] eq "f")
+						{
+							$word_hex[$j] .= "ff2305";
+							$word_lengths[$j] -= 0.75 * 26;
+						}
+						else
+						{
+							$word_hex[$j] .= "ff2306";
+							$word_lengths[$j] -= 0.75 * 24;
+						}
+
+						$word_hex[$j] .= ascii_to_hex($english_characters[$k + 2]) . "ff2300";
+						$tile_adjustment_flag = 1;
+						$k += 2;
+					}
+					elsif($english_characters[$k] eq "." && $k == scalar(@english_characters) - 1)
+					{
+						$word_hex[$j] .= "ff2304" . ascii_to_hex($english_characters[$k]) . "ff2300";
+						$word_lengths[$j] -= 0.75 * 12;
+						$tile_adjustment_flag = 1;
+					}
 					elsif($english_characters[$k] eq "!" && $english_characters[$k + 1] eq "!" && $english_characters[$k + 2] eq "!")
 					{
-						$word_hex[$j] .= "ff2306" . ascii_to_hex($english_characters[$k] . $english_characters[$k + 1]) . "ff2300" . ascii_to_hex($english_characters[$k + 2]);
-						$word_lengths[$j] -= 0.75 * 16;
+						$word_hex[$j] .= "ff2306" . ascii_to_hex($english_characters[$k] . $english_characters[$k + 1]) . "ff2300ff2308" . ascii_to_hex($english_characters[$k + 2]) . "ff2300";
+						$word_lengths[$j] -= 0.75 * 20;
 						$tile_adjustment_flag = 1;
 						$k += 2;
 					}
@@ -387,10 +436,23 @@ for(my $i = 1; $i < scalar(@spreadsheet_rows); $i ++)
 					}
 					elsif($english_characters[$k] eq "?" && $english_characters[$k + 1] eq "!")
 					{
-						$word_hex[$j] .= "ff2307" . ascii_to_hex($english_characters[$k] . $english_characters[$k + 1]) . "ff2300";
-						$word_lengths[$j] -= 0.75 * 12;
+						$word_hex[$j] .= "ff2307" . ascii_to_hex($english_characters[$k]) . "ff2300ff2308" . ascii_to_hex($english_characters[$k + 1]) . "ff2300";
+						$word_lengths[$j] -= 0.75 * 10;
 						$tile_adjustment_flag = 1;
 						$k += 1;
+					}
+					elsif($english_characters[$k] eq "!" && $k == scalar(@english_characters) - 1)
+					{
+						$word_hex[$j] .= "ff2308" . ascii_to_hex($english_characters[$k]) . "ff2300";
+						$word_lengths[$j] -= 0.75 * 4;
+						$tile_adjustment_flag = 1;
+					}
+
+					if($english_characters[$k] eq ":" && $k == scalar(@english_characters) - 1)
+					{
+						$word_hex[$j] .= "ff2307" . ascii_to_hex($english_characters[$k]) . "ff2300";
+						$word_lengths[$j] -= 0.75 * 6;
+						$tile_adjustment_flag = 1;
 					}
 
 					if($tile_adjustment_flag == 0)
@@ -411,7 +473,20 @@ for(my $i = 1; $i < scalar(@spreadsheet_rows); $i ++)
 					{
 						if($j > 0 && $english_text_words[$j - 1] ne "[NL]")
 						{
-							$english_text_hex .= "20";
+							if(lc(substr($english_text_words[$j], 0, 1)) eq "i" || substr($english_text_words[$j], 0, 1) eq "l" || substr($english_text_words[$j], 0, 1) eq "j")
+							{
+								$english_text_hex .= "ff230720ff2300";
+								$line_length[$line_count] -= 0.75 * 6;
+							}
+							elsif(substr($english_text_words[$j], 0, 1) eq "f")
+							{
+								$english_text_hex .= "ff230920ff2300";
+								$line_length[$line_count] -= 0.75 * 2;
+							}
+							else
+							{
+								$english_text_hex .= "20";
+							}
 						}
 
 						$english_text_hex .= $word_hex[$j];
@@ -431,7 +506,21 @@ for(my $i = 1; $i < scalar(@spreadsheet_rows); $i ++)
 					if($j > 0)
 					{
 						$line_length[$line_count] += 16;
-						$english_text_hex .= "20";
+
+						if(lc(substr($english_text_words[$j], 0, 1)) eq "i" || substr($english_text_words[$j], 0, 1) eq "l" || substr($english_text_words[$j], 0, 1) eq "j")
+						{
+							$english_text_hex .= "ff230720ff2300";
+							$line_length[$line_count] -= 0.75 * 6;
+						}
+						elsif(substr($english_text_words[$j], 0, 1) eq "f")
+						{
+							$english_text_hex .= "ff230920ff2300";
+							$line_length[$line_count] -= 0.75 * 2;
+						}
+						else
+						{
+							$english_text_hex .= "20";
+						}
 					}
 
 					$english_text_hex .= $word_hex[$j];
@@ -456,11 +545,31 @@ for(my $i = 1; $i < scalar(@spreadsheet_rows); $i ++)
 							$line_length[$line_count] += 16;
 						}
 
-						if($line_length[$line_count] + $word_lengths[$j] <= 656)
+						my $line_max = 656;
+
+						if($file_input_basename =~ /VM_MSG/)
+						{
+							$line_max = 768;
+						}
+
+						if($line_length[$line_count] + $word_lengths[$j] <= $line_max)
 						{
 							if($j > 0 && $processing_after_dialogue_break != 1)
 							{
-								$english_text_hex .= "20";
+								if(lc(substr($english_text_words[$j], 0, 1)) eq "i" || substr($english_text_words[$j], 0, 1) eq "l" || substr($english_text_words[$j], 0, 1) eq "j")
+								{
+									$english_text_hex .= "ff230720ff2300";
+									$line_length[$line_count] -= 0.75 * 6;
+								}
+								elsif(substr($english_text_words[$j], 0, 1) eq "f")
+								{
+									$english_text_hex .= "ff230920ff2300";
+									$line_length[$line_count] -= 0.75 * 2;
+								}
+								else
+								{
+									$english_text_hex .= "20";
+								}
 							}
 
 							$english_text_hex .= $word_hex[$j];
@@ -497,11 +606,31 @@ for(my $i = 1; $i < scalar(@spreadsheet_rows); $i ++)
 							$line_length[$line_count] += 16;
 						}
 
-						if($line_length[$line_count] + $word_lengths[$j] <= 720)
+						my $line_max = 720;
+
+						if($file_input_basename =~ /VM_MSG/)
+						{
+							$line_max = 768;
+						}
+
+						if($line_length[$line_count] + $word_lengths[$j] <= $line_max)
 						{
 							if($j > 0 && $processing_after_dialogue_break != 1 && $english_text_words[$j - 1] !~ /^\[ff290[0-9]\]/)
 							{
-								$english_text_hex .= "20";
+								if(lc(substr($english_text_words[$j], 0, 1)) eq "i" || substr($english_text_words[$j], 0, 1) eq "l" || substr($english_text_words[$j], 0, 1) eq "j")
+								{
+									$english_text_hex .= "ff230720ff2300";
+									$line_length[$line_count] -= 0.75 * 6;
+								}
+								elsif(substr($english_text_words[$j], 0, 1) eq "f")
+								{
+									$english_text_hex .= "ff230920ff2300";
+									$line_length[$line_count] -= 0.75 * 2;
+								}
+								else
+								{
+									$english_text_hex .= "20";
+								}
 							}
 
 							$english_text_hex .= $word_hex[$j];
