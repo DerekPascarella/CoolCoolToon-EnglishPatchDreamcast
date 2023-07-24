@@ -685,6 +685,12 @@ for(my $i = 1; $i < scalar(@spreadsheet_rows); $i ++)
 		$english_text_hex .= "fe";
 	}
 
+	# Use custom font files for "déjà vu".
+	if($file_input_basename eq "S_G_01.HBN_002_ATL")
+	{
+		$english_text_hex =~ s/6465FF23076AFF230061/642AFF23076AFF230024/gi;
+	}
+
 	# Process hex representation of English text for "fancy" double-quotes.
 	my @english_text_hex_bytes = ($english_text_hex =~ m/../g);
 
