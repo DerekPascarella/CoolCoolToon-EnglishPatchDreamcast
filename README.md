@@ -119,7 +119,7 @@ Even after extensive testing on both real hardware and on emulators, the presenc
 <td>VGA Box, Jump Pack, Controller, VMU, Setsuzoku Cable (Link Cable), Maracas (Unofficially)</td>
 </table>
 <br>
-Cool Cool Toon (クルクルトゥーン) is an interactive 3D rhythm-comic game developed by SNK for the Dreamcast, making it one of the last games the company developed for the console. The title is also capable of linking with its Neo Geo Pocket Color companion title, "Cool Cool Jam". Both titles were released on August 10th, 2000 in Japan. The games were never licensed or localized to any other country.
+"Cool Cool Toon" (クルクルトゥーン) is an interactive 3D rhythm-comic game developed by SNK for the Dreamcast, making it one of the last games the company developed for the console. The title is also capable of linking with its Neo Geo Pocket Color companion title, "Cool Cool Jam". Both titles were released on August 10th, 2000 in Japan. The games were never licensed or localized to any other country.
 <br><br>
 The gameplay has often been compared with another rhythm game at the time, "Space Channel 5", by fans and critics alike. Main visuals and character designs were done by comic book artist and illustrator, Ippei Gyoubu.
 <br><br>
