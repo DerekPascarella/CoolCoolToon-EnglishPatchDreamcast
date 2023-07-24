@@ -13,6 +13,12 @@ my $font_data_double_quote_2 = "24090360D8000000000000000000000000000000";
 my $font_data_single_quote = "C0300401";
 &patch_bytes("Z:\\dc\\gdi\\new\\cool_cool_toon\\gdi_extracted\\1ST_READ.BIN", $font_data_single_quote, 1734624);
 
+my $font_data_accented_a = "0600C00800078330060187E3198661986718FE00";
+&patch_bytes("Z:\\dc\\gdi\\new\\cool_cool_toon\\gdi_extracted\\1ST_READ.BIN", $font_data_accented_a, 1734553);
+
+my $font_data_accented_e = "6030100001E0CC619867F9806198633078";
+&patch_bytes("Z:\\dc\\gdi\\new\\cool_cool_toon\\gdi_extracted\\1ST_READ.BIN", $font_data_accented_e, 1734699);
+
 # Subroutine to read a specified number of bytes (starting at the beginning) of a specified file,
 # returning hexadecimal representation of data.
 #
