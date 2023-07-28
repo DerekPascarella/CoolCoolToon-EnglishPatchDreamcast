@@ -157,7 +157,7 @@ The companion game to "Cool Cool Toon" (called "Cool Cool Jam") for the Neo Geo 
 Points earned in this game can be transferred to "Cool Cool Toon" on the Dreamcast, allowing players to unlock more costumes and characters. Conversely, unlocked characters and constumes from "Cool Cool Toon" on the Dreamcast can be transferred to "Cool Cool Jam" on the Neo Geo Pocket Color.
 
 <h2>Tutorials</h2>
-There are several mechanics players should learn in order to progress through the game, explained below.
+There are several mechanics players should learn in order to progress through the game, explained below. Note that these tutorials are also accessible from Yusa's bedroom by talking to Yusa and selecting "Flitz Tutorials".
 <h3>Flitz Basics</h3>
 <img src="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/blob/main/tutorials/flitz_basics_1.png?raw=true">
 <img src="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/blob/main/tutorials/flitz_basics_2.png?raw=true">
