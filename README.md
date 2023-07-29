@@ -14,11 +14,12 @@
 3. [Release Changelog](#release-changelog)
 4. [Reporting Bugs and Typos](#reporting-bugs-and-typos)
 5. [What's Changed](#whats-changed)
-6. [About the Game](#about-the-game)
-7. [Bonus Content](#bonus-content)
-8. [Original Soundtrack](#original-soundtrack)
-9. [Neo Geo Pocket Color Link Feature](#neo-geo-pocket-color-link-feature)
-10. [Tutorials](#tutorials)
+6. [Launch Trailer](#launch-trailer)
+7. [About the Game](#about-the-game)
+8. [Bonus Content](#bonus-content)
+9. [Original Soundtrack](#original-soundtrack)
+10. [Neo Geo Pocket Color Link Feature](#neo-geo-pocket-color-link-feature)
+11. [Tutorials](#tutorials)
 
 <h2>Patching Instructions</h2>
 <ul>
@@ -68,7 +69,7 @@
 
 <h2>Release Changelog</h2>
 <ul>
- <li>Version 1.0 (2023-07-XX)</li>
+ <li>Version 1.0 (2023-07-28)</li>
  <ul>
   <li>Initial release.</li>
  </ul>
@@ -95,6 +96,11 @@ Even after extensive testing on both real hardware and on emulators, the presenc
    <li>Previously this portion of the game was inaccessible to those who've never configured ISP settings on their Dreamcast, but this requirement has been removed.</li>
   </ul>
 </ul>
+
+<h2>Launch Trailer</h2>
+Watch the exciting launch trailer made by project team member James Tocchio of <a href="https://www.ggdreamcast.com/">GGDreamcast.com</a>.
+<br><br>
+<a href="https://www.youtube.com/watch?v=dhnJ5VBaKQ4"><img border="0" src="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/blob/main/trailer.jpg?raw=true"></a>
 
 <h2>About the Game</h2>
 <table>
