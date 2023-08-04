@@ -95,6 +95,7 @@ Even after extensive testing on both real hardware and on emulators, the presenc
  <li>All menu text/graphics has been translated and appears in English.</li>
  <li>VMU save file metadata has been translated and appears in English.</li>
  <li>Neo Geo Pocket Color link (for use with "Cool Cool Jam") messages have been translated and appear in English (see <a href="#neo-geo-pocket-color-link-feature">Neo Geo Pocket Color Link Feature</a> section).</li>
+ <li>Broken 50hz mode when game detects PAL console with a non-VGA video cable has been fixed, now defaulting to 60hz NTSC.</li>
  <li>The built-in "INTERNET GATE" has been replaced with special bonus content (see <a href="#bonus-content">Bonus Content</a> section).</li>
   <ul>
    <li>Previously this portion of the game was inaccessible to those who've never configured ISP settings on their Dreamcast, but this requirement has been removed.</li>
