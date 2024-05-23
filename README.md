@@ -69,11 +69,11 @@
 
 <h2>Release Changelog</h2>
 <ul>
- <li>Version 1.1 (2023-07-31)</li>
+ <li><b>Version 1.1 (2023-07-31)</b></li>
  <ul>
   <li>Added support for using RGB or composite on PAL consoles.</li>
  </ul>
- <li>Version 1.0 (2023-07-28)</li>
+ <li><b>Version 1.0 (2023-07-28)</b></li>
  <ul>
   <li>Initial release.</li>
  </ul>
