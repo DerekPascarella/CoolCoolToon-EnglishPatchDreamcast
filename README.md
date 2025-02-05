@@ -1,5 +1,5 @@
 <h1>Cool Cool Toon</h1>
-<img width="165" height="165" align="right" src="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/blob/main/cover.jpg?raw=true">Download the English translation patch (more information in the <a href="#patching-instructions">Patching Instructions</a> section).
+<img width="169" height="165" align="right" src="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/blob/main/cover.png?raw=true">Download the English translation patch (more information in the <a href="#patching-instructions">Patching Instructions</a> section).
 <br><br>
 <ul>
  <li><b>GDI Format (Users of ODEs or Emulators)</b><br>Download <a href="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/releases/download/1.1/Cool.Cool.Toon.English.v1.1.dcp">Cool Cool Toon (English v1.1).dcp</a> for use with <a href="https://github.com/DerekPascarella/UniversalDreamcastPatcher">Universal Dreamcast Patcher</a> v1.3 or newer.</li>
