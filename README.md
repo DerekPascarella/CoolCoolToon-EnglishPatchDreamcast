@@ -161,7 +161,7 @@ To learn more about the soundtrack, including credits for songwriters, music arr
 <a href="https://mega.nz/folder/OJlmgZRD#IC8D6X6UMhiI_JH96IQF2Q">Download</a> the soundtrack in MP3 format.
 
 <h2>Neo Geo Pocket Color Link Feature</h2>
-<img align="right" width="202" height="250" src="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/blob/main/link_cable.jpg?raw=true">A special <a href="https://segaretro.org/Neo_Geo_Pocket/Dreamcast_Setsuzoku_Cable">"Setsuzoku Cable"</a> (Link Cable) is required to make use of this feature, connecting the Neo Geo Pocket Color to the Dreamcast.
+<img align="right" width="202" height="250" src="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/blob/main/link_cable.jpg?raw=true">A special "<a href="https://segaretro.org/Neo_Geo_Pocket/Dreamcast_Setsuzoku_Cable">Setsuzoku Cable</a>" (Link Cable) is required to make use of this feature, connecting the Neo Geo Pocket Color to the Dreamcast.
 <br><br>
 The companion game to "Cool Cool Toon" (called "Cool Cool Jam") for the Neo Geo Pocket Color follows the adventures of Wav and Midi in Musey Town, a neighboring city of Cool Cool Town. The main focus of this game is to start a band to find the way back home, using mini-games where the player needs to compose pieces with instruments.
 <br><br>
