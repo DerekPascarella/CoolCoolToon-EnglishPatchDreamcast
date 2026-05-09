@@ -71,7 +71,7 @@
 <ul>
  <li><b>Version 1.2 (2026-05-09)</b></li>
  <ul>
-  <li>Fixed issue where certain thumbnails didn't display in the bonus content section under certain conditions.</li>
+  <li>Fixed issue where preview thumbnails didn't display in the bonus content section under certain conditions.</li>
  </ul>
  <li><b>Version 1.1 (2023-07-31)</b></li>
  <ul>
