@@ -2,9 +2,9 @@
 <img width="169" height="165" align="right" src="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/blob/main/cover.png?raw=true">Download the English translation patch (more information in the <a href="#patching-instructions">Patching Instructions</a> section).
 <br><br>
 <ul>
- <li><b>GDI Format (Users of ODEs or Emulators)</b><br>Download <a href="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/releases/download/1.2/Cool.Cool.Toon.English.v1.2.dcp">Cool Cool Toon (English v1.2).dcp</a> for use with <a href="https://github.com/DerekPascarella/UniversalDreamcastPatcher">Universal Dreamcast Patcher</a> v1.3 or newer.</li>
+ <li><b>GDI Format (Users of ODEs or Emulators)</b><br>Download <a href="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/releases/download/1.3/Cool.Cool.Toon.English.v1.3.dcp">Cool Cool Toon (English v1.3).dcp</a> for use with <a href="https://github.com/DerekPascarella/UniversalDreamcastPatcher">Universal Dreamcast Patcher</a> v1.3 or newer.</li>
  <br>
- <li><b>CDI Format (Users Burning to CD-R)</b><br>Download <a href="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/releases/download/1.2/Cool.Cool.Toon.English.v1.2.xdelta">Cool Cool Toon (English v1.2).xdelta</a> for use with <a href="https://www.romhacking.net/utilities/704/">Delta Patcher</a> (or equivalent tools).</li>
+ <li><b>CDI Format (Users Burning to CD-R)</b><br>Download <a href="https://github.com/DerekPascarella/CoolCoolToon-EnglishPatchDreamcast/releases/download/1.3/Cool.Cool.Toon.English.v1.3.xdelta">Cool Cool Toon (English v1.3).xdelta</a> for use with <a href="https://www.romhacking.net/utilities/704/">Delta Patcher</a> (or equivalent tools).</li>
 </ul>
 
 <h2>Table of Contents</h2>
@@ -25,7 +25,7 @@
 <ul>
  <li><b>GDI Format (Users of ODEs or Emulators)</b><br><img align="right" width="250" src="https://github.com/DerekPascarella/UniversalDreamcastPatcher/blob/main/screenshots/screenshot.png?raw=true">The DCP patch file shipped with this release is designed for use with <a href="https://github.com/DerekPascarella/UniversalDreamcastPatcher">Universal Dreamcast Patcher</a> v1.3 or newer.  Note that Universal Dreamcast Patcher supports both TOSEC-style GDI and Redump-style CUE disc images as source input.<br><br><ol type="1"><li>Click "Select GDI or CUE" to open the source disc image.</li><li>Click "Select Patch" to open the DCP patch file.</li><li>Click "Apply Patch" to generate the patched GDI, which will be saved in the folder from which the application is launched.</li><li>Click "Quit" to exit the application.</li></ol></li>
  <br>
- <li><b>CDI Format (Users Burning to CD-R)</b><br><img align="right" width="250" src="https://i.imgur.com/r4b04e7.png">The XDelta patch file shipped with this release can be used with any number of Delta utilities, such as <a href="https://www.romhacking.net/utilities/704/">Delta Patcher</a>. Ensure the source CDI has an MD5 checksum of <tt>ABA9C3600EBDD4FBE292ABA87B43630B</tt>.<br><br><ol type="1"><li>Click the settings icon (appears as a gear) and enable "Backup original file" and "Checksum validation".</li><li>Click the "Original file" browse icon and select the unmodified CDI.</li><li>Click the "XDelta patch" browse icon and select the XDelta patch.</li><li>Click "Apply patch" to generate the patched CDI in the same folder containing the original CDI.</li><li>Verify that the patched CDI has an MD5 checksum of <tt>C96708501D24023495E1FB3C37C907D0</tt>.</ol></li>
+ <li><b>CDI Format (Users Burning to CD-R)</b><br><img align="right" width="250" src="https://i.imgur.com/r4b04e7.png">The XDelta patch file shipped with this release can be used with any number of Delta utilities, such as <a href="https://www.romhacking.net/utilities/704/">Delta Patcher</a>. Ensure the source CDI has an MD5 checksum of <tt>ABA9C3600EBDD4FBE292ABA87B43630B</tt>.<br><br><ol type="1"><li>Click the settings icon (appears as a gear) and enable "Backup original file" and "Checksum validation".</li><li>Click the "Original file" browse icon and select the unmodified CDI.</li><li>Click the "XDelta patch" browse icon and select the XDelta patch.</li><li>Click "Apply patch" to generate the patched CDI in the same folder containing the original CDI.</li><li>Verify that the patched CDI has an MD5 checksum of <tt>FD52EE3A281550095E5A6A7C55BAD485</tt>.</ol></li>
 </ul>
 
 <h2>Credits</h2>
@@ -69,6 +69,12 @@
 
 <h2>Release Changelog</h2>
 <ul>
+ <li><b>Version 1.3 (2026-11-17)</b></li>
+ <ul>
+  <li>"Internet Gate" (i.e., Bonus Content section) now contains <a href="http://dream.dc99.net/cct/modem/tower/index.php">a link</a> to the live, non-cached, and fully English-translated version of the original Dricas website, restored by <a href="https://dc99.net">enfilade-DC99</a>, allowing players to upload their VMU save file containing collected Jara, purchased outfits, Tower Tickets, and other game data.</li>
+  <li>Fixed broken "Internet Gate" (i.e., Bonus Content section) in CDI version of the patch.</li>
+  <li>Updated custom built-in Dream Passport browser to include A+B+X+Y reset-to-game button combination shortcut.</li>
+ </ul>
  <li><b>Version 1.2 (2026-05-09)</b></li>
  <ul>
   <li>Fixed issue where preview thumbnails didn't display in the bonus content section under certain conditions.</li>
@@ -152,7 +158,7 @@ To return to the game from the bonus content section, press L on the controller,
  <br>
  <li><b>On-Disc Extras Page</b><br>The retail GD-ROM of "Cool Cool Toon" included a built-in "Omake", or "Extras", webpage. This baked-in page features fantastic artwork, including character portraits, artwork development pieces, title screens, wallpapers, and more!</li>
  <br>
- <li><b>Original Dricas Website</b><br>Dricas, the Japanese Dreamcast network website, hosted individual pages for a slew of games during the console's lifespan. Included here is the original "Cool Cool Toon" site, fully intact. For purposes of preservation, this content has been left untranslated.</li>
+ <li><b>Original Dricas Website</b><br>Dricas, the Japanese Dreamcast network website, hosted individual pages for a slew of games during the console's lifespan. Included here is the original "Cool Cool Toon" site, fully intact. For purposes of preservation, this content has been left untranslated. Additionally, <a href="http://dream.dc99.net/cct/modem/en/welcome.html">a link</a> to the live, non-cached, and fully English-translated version of the original Dricas website has been added, restored by <a href="https://dc99.net">enfilade-DC99</a>, allowing players to upload their VMU save file containing collected Jara, purchased outfits, Tower Tickets, and other game data.</li>
  <br>
  <li><b>Using Maracas</b><br>This game's little-known support for the Dreamcast maracas was documented on the retail GD-ROM itself. That documentation has been fully translated for all the crazy Dreamcast peripheral owners out there to try!</li>
 </ul>
